@@ -16,6 +16,7 @@ namespace PlacovuApp.Controllers
         public IActionResult Index()
         {
             string fullName = "Md Sahadat Hossen";
+            ViewBag.FullName = fullName;
 
             return View();
         }
